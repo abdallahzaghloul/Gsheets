@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
+import  streamlit_gsheets
 from streamlit_gsheets import GSheetsConnection
+# pandas==2.0.1
+# streamlit==1.25.0
+# streamlit_gsheets==0.0.1
 
 st.title("Google Sheets as a DataBase")
 
